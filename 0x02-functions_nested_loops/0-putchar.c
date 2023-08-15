@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
  * main - print _putchar
  * is written by Thaddy
- * R%eturn: 0
+ * Return: 0
  */
 int main(void)
 {
