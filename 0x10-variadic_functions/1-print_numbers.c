@@ -3,12 +3,12 @@
 /**
  * print_numbers - function that prints a number
  * @n: number of integer passed into the function
- * @seperator: string to be printed btwn numbers
+ * @separator: string to be printed btwn numbers
  * Return: void
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
-{       
+{
 	unsigned int i, arr;
 
 	va_list ptr;
@@ -24,5 +24,5 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			printf("%s", separator);
 	}
 	printf("\n");
-	va_end (ptr);
+	va_end(ptr);
 }
